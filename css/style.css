@@ -1,4 +1,17 @@
+/* RESET */
 @import url(./global/global.css);
+
+/* TIPOGRAFIA */
+@import url(./utilidades/tipografia.css);
+
+/* CORES */
+@import url(./utilidades/cores.css);
+
+/* HEADER */
 @import url(./global/header.css);
+
+/* HOME */
 @import url(./home/introducao.css);
-@import url(./assets/componentes.css);
+
+/* UTILIDADES */
+@import url(./componentes/componentes.css);
