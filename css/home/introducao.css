@@ -39,12 +39,6 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 48px;
-  }
-}
-
 @media (max-width: 800px) {
   .introducao-bg {
     background: var(--cor-11);
