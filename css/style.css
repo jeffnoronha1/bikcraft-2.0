@@ -18,3 +18,6 @@
 
 /* BICICLETAS */
 @import url(./bicicletas/bicicletas-lista.css);
+
+/* TECNOLOGIA */
+@import url(./home/tecnologia.css);
