@@ -9,22 +9,30 @@
 
 .btn {
   display: inline-block;
+  max-width: max-content;
   padding: 16px 32px;
   color: var(--cor-p-5);
-  background: linear-gradient(#ffbb00, #f2a50c);
+  background: linear-gradient(to right, #ffbb00, #ffaa00);
   border-radius: 4px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   text-transform: uppercase;
   letter-spacing: 1px;
   font: 600 1.125rem/1.33 'Poppins', sans-serif;
   transition: all 0.2s ease-in-out;
-  opacity: 90%;
+}
+
+.btn.secundario {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.btn.secundario:hover {
+  background: var(--cor-9);
 }
 
 .btn:hover {
-  background: linear-gradient(#ffb60d, #e59317);
+  background: linear-gradient(to left, #ffbb00, #ffaa00);
   transform: scale(1.1);
-  opacity: 100%;
 }
 
 .link {
@@ -35,8 +43,7 @@
   letter-spacing: 1px;
 }
 
-.link::after,
-.link::before {
+.link::after {
   content: '';
   display: block;
   width: 100%;
