@@ -30,3 +30,6 @@
 
 /* SEGUROS */
 @import url(./seguros/seguros.css);
+
+/* FOOTER */
+@import url(./global/footer.css);
