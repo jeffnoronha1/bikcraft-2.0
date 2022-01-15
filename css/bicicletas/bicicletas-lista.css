@@ -40,7 +40,7 @@
   display: inline-block;
   width: 12px;
   height: 8px;
-  background-color: var(--cor-p-1);
+  background: linear-gradient(to right, #ffbb00, #ffaa00);
   margin-right: 8px;
   transition: width 0.2s ease-in-out;
 }

@@ -21,6 +21,11 @@
   transition: all 0.2s ease-in-out;
 }
 
+.btn:hover {
+  background: linear-gradient(to left, #ffbb00, #ffaa00);
+  transform: scale(1.1);
+}
+
 .btn.secundario {
   background: var(--cor-10);
   color: var(--cor-2);
@@ -30,9 +35,23 @@
   background: var(--cor-9);
 }
 
-.btn:hover {
-  background: linear-gradient(to left, #ffbb00, #ffaa00);
-  transform: scale(1.1);
+.btn.seta {
+  display: flex;
+  align-items: center;
+}
+
+.btn.seta::after {
+  content: '';
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url('./../../img/icones/seta.svg');
+  transition: transform 0.2s;
+}
+
+.btn.seta:hover::after {
+  transform: translateX(4px);
 }
 
 .link {

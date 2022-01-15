@@ -16,7 +16,7 @@
 /* UTILIDADES */
 @import url(./componentes/componentes.css);
 
-/* BICICLETAS */
+/* BICICLETAS LISTA */
 @import url(./bicicletas/bicicletas-lista.css);
 
 /* TECNOLOGIA */
@@ -36,3 +36,6 @@
 
 /* TERMOS */
 @import url(./internos/termos.css);
+
+/* BICICLETAS */
+@import url(./internos/bicicletas.css);
