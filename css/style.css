@@ -39,3 +39,9 @@
 
 /* BICICLETAS */
 @import url(./internos/bicicletas.css);
+
+/* VANTAGENS */
+@import url(./seguros/vantagens.css);
+
+/* PERGUNTAS */
+@import url(./seguros/perguntas.css);
