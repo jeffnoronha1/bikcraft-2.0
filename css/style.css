@@ -51,3 +51,12 @@
 
 /* SEGURO */
 @import url(./bicicleta/seguro.css);
+
+/* CONTATO */
+@import url(../contato/contato.css);
+
+/* FORM */
+@import url(../css/utilidades/form.css);
+
+/* LOJA */
+@import url(../contato/loja.css);

@@ -19,6 +19,8 @@
   letter-spacing: 1px;
   font: 600 1.125rem/1.33 'Poppins', sans-serif;
   transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
 }
 
 .btn:hover {
