@@ -18,14 +18,14 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   font: 600 1.125rem/1.33 'Poppins', sans-serif;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out !important;
   border: none;
   cursor: pointer;
 }
 
 .btn:hover {
   background: linear-gradient(to left, #ffbb00, #ffaa00);
-  transform: scale(1.1);
+  transform: scale(1.1) !important;
 }
 
 .btn.secundario {
