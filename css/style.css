@@ -63,3 +63,6 @@
 
 /* ORÇAMENTO */
 @import url('./orcamento/orcamento.css');
+
+/* ANIMAÇÕES */
+@import url('./utilidades/animacao.css');

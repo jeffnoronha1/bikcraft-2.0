@@ -37,14 +37,17 @@
   <main class="introducao-bg">
     <div class="introducao container">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl cor-0">Bicicletas feitas sob medida <span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você.
+        <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="200">Bicicletas feitas sob medida <span
+            class="cor-p1">.</span></h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas
+          sob medida
+          para você.
           Explore o mundo na sua velocidade com a Bikcraft.</p>
         </p>
         <a class="btn" href="./bicicletas.html">Escolha a sua</a>
       </div>
 
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta" srcset="">
       </picture>
@@ -190,26 +193,26 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="btn secundario" href="./orcamento.html">Inscreva-se</a>
+        <a class="btn secundario" href="./orcamento.html?tipo=seguro&produto=prata"">Inscreva-se</a>
       </div>
 
-      <div class="seguros-item">
-        <h3 class="font-1-xl cor-p1">OURO</h3>
-        <span class="font-1-xl cor-0">
-          <sup>R$</sup>
-          299
-          <span class="font-1-xs cor-6">mensal</span>
-        </span>
+      <div class=" seguros-item">
+          <h3 class="font-1-xl cor-p1">OURO</h3>
+          <span class="font-1-xl cor-0">
+            <sup>R$</sup>
+            299
+            <span class="font-1-xs cor-6">mensal</span>
+          </span>
 
-        <ul class="font-2-m cor-0">
-          <li>Cinco trocas por ano</li>
-          <li>Assistência especial</li>
-          <li>Suporte 24h</li>
-          <li>Cobertura nacional</li>
-          <li>Desconto em Parceiros</li>
-          <li>Acesso ao Clube Bikcraft</li>
-        </ul>
-        <a class="btn" href="./orcamento.html">Inscreva-se</a>
+          <ul class="font-2-m cor-0">
+            <li>Cinco trocas por ano</li>
+            <li>Assistência especial</li>
+            <li>Suporte 24h</li>
+            <li>Cobertura nacional</li>
+            <li>Desconto em Parceiros</li>
+            <li>Acesso ao Clube Bikcraft</li>
+          </ul>
+          <a class="btn" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
       </div>
     </div>
   </article>
@@ -252,6 +255,7 @@
     </div>
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
   <script src="./js/script.js"></script>
 </body>
 
